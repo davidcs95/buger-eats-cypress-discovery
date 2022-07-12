@@ -7,10 +7,11 @@ describe('Home Page', ()=>{
     it('App deve estar online', ()=>{
 
         //.viewport define a resolução da tela
-        cy.viewport(1440, 1080)
+        // cy.viewport(1440, 1080)
 
         //.visit navega para a URL informada no parâmetro
-        cy.visit('https://buger-eats.vercel.app')
+        // cy.visit('https://buger-eats.vercel.app')
+        cy.visit('/')
 
         //.get busca o elemento na página
         //.should realiza uma validação utilizando o método passado no primeiro parâmetro
